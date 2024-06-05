@@ -5,7 +5,7 @@ export function isPalindrome(string) {
   // implement function
   let isPalindrome = false;
   string = string.toLowerCase();
-  string = string.replace(/[^a-zA-Z0-9]/g, "");
+  string = string.replace(/[^a-zA-Z0-9]/g, ""); // replace() will replace the first argument with the second argument, so it will replace all non-alphanumeric characters with an empty string, like spaces, commas, etc.
   // split() will split the string into an array of substrings
   // reverse() will reverse the array
   let reversedString = string.split("").reverse().join(""); // join() will join the elements of the array into a string
