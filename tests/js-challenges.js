@@ -5,7 +5,7 @@ export function isPalindrome(string) {
   // implement function
   let isPalindrome = false;
   string = string.toLowerCase();
-  string = string.replace(" ", "");
+  string = string.replace(/[^a-zA-Z0-9]/g, "");
   let reversedString = string.split("").reverse().join("");
   if (string === reversedString) {
     isPalindrome = true;
