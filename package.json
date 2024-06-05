@@ -1,0 +1,16 @@
+{
+  "name": "pure-function-unit-testing-with-vitest",
+  "version": "1.0.0",
+  "description": "Pure function testing with Vitest",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitest": "^1.6.0"
+  },
+  "type": "module"
+}
