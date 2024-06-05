@@ -23,16 +23,16 @@ describe("isPalindrome", () => {
   });
 });
 
-// describe("isAnagram", () => {
-//   test("returns true for anagrams", () => {
-//     expect(isAnagram("elbow", "below")).toBe(true);
-//     expect(isAnagram("dormitory", "dirty room")).toBe(true);
-//     expect(isAnagram("Conversation", "voices rant on")).toBe(true);
-//   });
+describe("isAnagram", () => {
+  test("returns true for anagrams", () => {
+    expect(isAnagram("elbow", "below")).toBe(true);
+    expect(isAnagram("dormitory", "dirty room")).toBe(true);
+    expect(isAnagram("Conversation", "voices rant on")).toBe(true);
+  });
 
-//   test("returns false for non-anagrams", () => {
-//     expect(isAnagram("elbow", "belows")).toBe(false);
-//     expect(isAnagram("dormitory", "dirty rooms")).toBe(false);
-//     expect(isAnagram("Conversation", "voices ranting on!")).toBe(false);
-//   });
-// });
+  test("returns false for non-anagrams", () => {
+    expect(isAnagram("elbow", "belows")).toBe(false);
+    expect(isAnagram("dormitory", "dirty rooms")).toBe(false);
+    expect(isAnagram("Conversation", "voices ranting on!")).toBe(false);
+  });
+});

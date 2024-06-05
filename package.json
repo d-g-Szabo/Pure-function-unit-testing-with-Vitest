@@ -4,7 +4,8 @@
   "description": "Pure function testing with Vitest",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coverage": "vitest --coverage"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,8 @@
   "dependencies": {
     "vitest": "^1.6.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.6.0"
+  }
 }
